@@ -4,6 +4,7 @@ package com.example.cursomc.resources;
 import com.example.cursomc.dto.EmailDTO;
 import com.example.cursomc.security.JWTUtil;
 import com.example.cursomc.security.UserSS;
+import com.example.cursomc.service.AuthService;
 import com.example.cursomc.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
