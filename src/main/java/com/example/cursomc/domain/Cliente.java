@@ -46,6 +46,7 @@ public class Cliente implements Serializable {
     @OneToMany(mappedBy="cliente")
     private List<Pedido> pedidos = new ArrayList<>();
 
+
     public Cliente() {
         addPerfil(Perfil.CLIENTE);
 
